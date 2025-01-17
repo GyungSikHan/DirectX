@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="IExecute.cpp">
+      <Filter>00.Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>00.Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>98.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>00.Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>02.Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>98.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>98.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryHelper.cpp">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecute.h">
+      <Filter>00.Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>00.Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>98.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>01.Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>00.Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>02.Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>98.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>98.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>01.Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00.Engine">
+      <UniqueIdentifier>{8c18c0e4-cb92-4084-8b9b-3a320f7d9b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Graphics">
+      <UniqueIdentifier>{e519efd1-56bb-426e-98f9-f4f2769faeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{2539b0ee-fbe3-4a1a-a49d-bcbe470d1d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component">
+      <UniqueIdentifier>{bb351bff-bba2-4768-b51a-3bbf06a56503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utils">
+      <UniqueIdentifier>{4799afe9-bf68-4288-bc24-e194b359a677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{bea1d0e5-7dc7-49fc-bc9d-3d4522d25bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Engine\Resource">
+      <UniqueIdentifier>{21dfb12b-0ef7-4934-9110-5f0b7a3fde11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Graphics\Buffer">
+      <UniqueIdentifier>{203fda34-a49c-405a-b6fb-5e9f2aa2303d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Graphics\Shader">
+      <UniqueIdentifier>{15faedcd-cd18-42e4-a54d-59fa47a9a872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Managers">
+      <UniqueIdentifier>{7d25cc7f-7093-4e97-a63a-982bc12af62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>98.Utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
