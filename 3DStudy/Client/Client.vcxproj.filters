@@ -30,11 +30,14 @@
     <ClInclude Include="03.ConstBufferDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="04.CameraDeme.h">
+    <ClInclude Include="04.CameraDemo.h">
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="CameraScript.h">
       <Filter>Main\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="05.TextureDemo.h">
+      <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -53,11 +56,14 @@
     <ClCompile Include="03.ConstBufferDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="04.CameraDeme.cpp">
+    <ClCompile Include="04.CameraDemo.cpp">
       <Filter>Game</Filter>
     </ClCompile>
     <ClCompile Include="CameraScript.cpp">
       <Filter>Main\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="05.TextureDemo.cpp">
+      <Filter>Game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +74,9 @@
       <Filter>Shaders</Filter>
     </FxCompile>
     <FxCompile Include="..\Shaders\03.ConstBuffer.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\05.Texture.fx">
       <Filter>Shaders</Filter>
     </FxCompile>
   </ItemGroup>

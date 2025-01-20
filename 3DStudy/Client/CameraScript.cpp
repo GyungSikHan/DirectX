@@ -24,7 +24,7 @@ void CameraScript::Update()
 		pos += GetTransform()->GetRight() * m_fSpeed * dt;
 
 	GetTransform()->SetPosition(pos);
-
+	
 	Vec3 rotation = GetTransform()->GetLocalRotation();
 
 	if (INPUT->GetButton(KEY_TYPE::Q))
