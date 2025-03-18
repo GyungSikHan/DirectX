@@ -7,6 +7,7 @@
 #include "05.TextureDemo.h"
 #include "06.SamplerDemo.h"
 
+
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
 	GameDesc desc;
@@ -20,4 +21,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	desc.app = make_shared<SamplerDemo>();
 	GAME->Run(desc);
 	return 0;
+}
+int main()
+{
+	return WinMain(GetModuleHandle(NULL), NULL, GetCommandLineA(), SW_SHOWDEFAULT);
 }

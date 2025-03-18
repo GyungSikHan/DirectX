@@ -7,7 +7,7 @@
 
 void SamplerDemo::Init()
 {
-	shader = make_shared<Shader> (L"06.Sampler.fx");
+	shader = make_shared<Shader> (L"05.Texture.fx");
 
 	geometry = make_shared<Geometry<VertexTextureData>>();
 	//GeometryHelper::CreateQuad(geometry);
@@ -27,7 +27,7 @@ void SamplerDemo::Init()
 	m_pCamera->AddComponent(make_shared<CameraScript>());
 	m_pCamera->GetTransform()->SetPosition(Vec3(0, 0, -10));
 
-	m_pTexture = RESOURCES->Load<Texture>(L"Veigar", L"..\\Resources\\Textures\\IMG_0463(1).JPG");
+	m_pTexture = RESOURCES->Load<Texture>(L"Veigar", L"..\\Resources\\Textures\\veigar.JPG");
 }
 
 void SamplerDemo::Update()
